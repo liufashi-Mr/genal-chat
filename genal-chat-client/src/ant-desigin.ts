@@ -1,7 +1,5 @@
 import Vue from 'vue';
 import 'ant-design-vue/dist/antd.less';
-//@ts-ignore
-import Notify from '@wcjiang/notify';
 import {
   message,
   Button,

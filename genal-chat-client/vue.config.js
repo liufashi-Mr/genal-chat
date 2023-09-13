@@ -23,6 +23,7 @@ const cdn = {
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
 
 module.exports = {
+  outputDir:'../dist-client',
   chainWebpack: (config) => {
     // 需要打包分析时取消注释
     // config.plugin('webpack-bundle-analyzer').use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin);
